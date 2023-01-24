@@ -10,4 +10,3 @@ Will essentially be a web version of a calculator, allowing the user to perform 
 
 - Add, subtract, multiply and divide
 - Clear the screen
-- a backspace button, to allow user error correction
