@@ -1,0 +1,84 @@
+
+* {
+    font-family: 'Roboto' ;
+}
+.calcBody {
+    height: 70vh;
+    width: 55vh;
+    background: grey;
+    margin: auto;
+    margin-top: 100px;
+    border: solid black 0.5px;
+    border-radius: 20px;
+}
+.display {
+    background-color: black;
+    height: 10%;
+    width: 80%;
+    margin-left: 40px;
+    border-radius: 4px;
+    padding-top: 30px;
+}
+.numDisplay {
+    text-align: right;
+    color: white;
+    font-size: x-large;
+}
+.numPad {
+    display: grid;
+    /* flex-direction: column; */
+    width: 90%;
+    height: 70%;
+    border: solid black 0.5px;
+    margin-top: 60px;
+    margin-left: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 7px;
+}
+.num {
+    border: solid black 1px;
+    background-color: darkkhaki;
+    font-weight: bolder;
+    font-size: large;
+}
+.operator:hover {
+    background-color: blueviolet;
+}
+.operator {
+    background-color: orange;
+    font-weight: bolder;
+    font-size: large;
+}
+.clear, .equals {
+    background-color: aqua;
+    font-weight: bolder;
+    font-size: large;
+}
+.empty {
+    background-color: grey;
+    border: none;
+}
+.display {
+    color: mintcream;
+    text-align: end;
+    font-size:x-large;
+    text-align: center;
+}
+.operator--active {
+    background-color: gainsboro;
+}
+.footer {
+    margin-top: 60px;
+    margin-left: 700px;
+
+}
+.fa-github:hover {
+    /* margin: 20px;   */
+    -webkit-animation: spin 4s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
